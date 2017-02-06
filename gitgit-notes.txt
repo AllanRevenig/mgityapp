@@ -1,0 +1,19 @@
+
+git init
+git config --global user.name 'Allan'
+git config --global user.email 'allanr@msn.com'
+git status
+git add index.html
+git add *.html
+git rm --cached index.html
+git add .
+git commit -m 'initial commit'
+
+touch .gitignore
+    type gitgit-notes.txt (don't want to include this file)
+
+mkdir dir1
+mkdir dir2
+touch dir1/app1.js
+touch dir2/app2.js
+
